@@ -1,0 +1,101 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/*Configuração do cabeçalho*/
+.header {
+    padding: 50px calc(10% + 2vm);
+    background-image: linear-gradient(#4056a1, #333);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.header b {
+    font-size: 4vm;
+}
+
+.menu {
+    text-align: center;
+    font-family: "Caveat";
+    font-size: 24px;
+    width: 100%;
+    background-color: bisque;
+}
+
+.menu2 {
+    text-align: left;
+    width: 100%;
+    background-color: bisque;
+    font-family: 'Open Sans';
+}
+
+.menu3 {
+    text-align: left;
+    width: 100%;
+    background-color: bisque;
+    font-family: 'Arial';
+}
+
+.menu4 {
+    text-align: left;
+    width: 100%;
+    background-color: bisque;
+    font-family: 'Open Sans';
+    border-radius: 10px;
+}
+
+#a1 {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(74, 73, 73);
+    display: inline-block;
+}
+
+#a2 {
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+img {
+    border-radius: 20px;
+}
+
+#a3 {
+    background-color: rgb(61, 59, 59);
+    border-radius: 20px;
+}
+
+#a4 {
+    color: rgb(50, 46, 160);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.header img {
+    width: 9vw;
+    height: 9.5vw;
+    border-radius: 50%;
+}
+/*Configuração do corpo*/
+.body {
+    width: 100%;
+    text-align: Left;
+    background-color: bisque;
+}
+/*Configuração do rodapé*/
+.foot {
+    text-align: center;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
